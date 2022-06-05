@@ -105,13 +105,6 @@
   text-align: center;
   background-color: white;
   border: 2px solid black;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-.prodGrid div div:hover {
-  -webkit-transform: scale(2, 2);
-          transform: scale(2, 2);
 }
 
 ul li {
