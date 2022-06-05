@@ -1,0 +1,23 @@
+.enc {
+  text-align: center;
+  padding: 30px;
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+  background-color: rgba(102, 34, 212, 0.822);
+}
+
+.enc a {
+  text-decoration: none;
+  color: black;
+  border-right: 2px solid #000;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+}
+/*# sourceMappingURL=style.css.map */
