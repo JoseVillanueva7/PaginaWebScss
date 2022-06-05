@@ -1,0 +1,35 @@
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+    
+.imgProd {
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 50px;
+}
+.tituProd{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+
+.grillaProd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+    padding: 50px;
+    gap: 150px 50px;
+}
+
+.grillaProd div ul li {
+    padding: 1px;
+    margin-left: 30px;
+}
