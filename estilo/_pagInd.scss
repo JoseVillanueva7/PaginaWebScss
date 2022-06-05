@@ -70,5 +70,8 @@
         background-color: white;
         border: 2px solid black;
         transform: scale(1, 1);
+        div:hover {
+            transform: scale(2, 2);
+        }
     }
 }
