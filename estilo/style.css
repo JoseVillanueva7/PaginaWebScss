@@ -108,4 +108,73 @@
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
+
+.foot {
+  display: inline;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.footer {
+  background-color: #949393;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .enc a {
+    display: list-item;
+    list-style: none;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-right: none;
+    font-size: medium;
+    padding-top: 30px;
+  }
+  .logo {
+    position: absolute;
+    top: 5px;
+    margin-left: 20%;
+  }
+  .pres {
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+  }
+  .pres h1 {
+    margin-top: -70px;
+  }
+  .prodGrid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 50px 50px;
+        grid-template-rows: 50px 50px;
+    justify-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foot {
+    font-size: small;
+  }
+  /* productos */
+  .grillaProd {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    text-align: center;
+  }
+  .grillaProd div {
+    font-size: medium;
+  }
+}
 /*# sourceMappingURL=style.css.map */
