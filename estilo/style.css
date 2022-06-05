@@ -7,7 +7,7 @@
   text-align: center;
   padding: 30px;
   font-size: 35px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   background-color: rgba(102, 34, 212, 0.822);
 }
 
@@ -39,7 +39,7 @@
 .pres h1 {
   color: white;
   font-size: 30px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   position: relative;
   position: absolute;
   top: 45%;
@@ -51,7 +51,7 @@
 .pres p {
   color: white;
   font-size: 30px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   position: relative;
   position: absolute;
   top: 50%;
@@ -62,13 +62,13 @@
 
 .aseso {
   text-align: center;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 40px;
 }
 
 .aseso2 {
   text-align: center;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 40px;
 }
 
@@ -98,7 +98,7 @@
           align-items: center;
   gap: 15px 15px;
   margin: 15px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .prodGrid div {
@@ -157,14 +157,14 @@ ul li {
 .formulario {
   text-align: center;
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .foot {
   display: inline;
   padding-left: 80px;
   padding-right: 80px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .footer {

@@ -9,7 +9,7 @@
     h1 {
         color: white;
         font-size: 30px;
-        font-family: 'Dosis', sans-serif;
+        font-family: $fuenteUno;
         position: relative;
         position: absolute;
         top: 45%;
@@ -19,7 +19,7 @@
     p {
         color: white;
         font-size: 30px;
-        font-family: 'Dosis', sans-serif;
+        font-family: $fuenteUno;
         position: relative;
         position: absolute;
         top: 50%;
@@ -33,13 +33,13 @@
 
 .aseso {
     text-align: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuenteUno;
     font-size: 40px;
 }
 
 .aseso2 {
     text-align: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuenteUno;
     font-size: 40px;
 }
 .imgEnlaces {
@@ -64,7 +64,7 @@
     align-items: center;
     gap: 15px 15px;
     margin: 15px;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuenteUno;
     div {
         text-align: center;
         background-color: white;
