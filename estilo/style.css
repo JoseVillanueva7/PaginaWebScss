@@ -228,4 +228,8 @@ ul li {
     font-size: medium;
   }
 }
+
+.bg-gainsboro {
+  background-color: gainsboro;
+}
 /*# sourceMappingURL=style.css.map */

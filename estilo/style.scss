@@ -12,3 +12,8 @@
 @import "pie";
 @import "responsive";
 
+@each $background in gainsboro	 {
+    .bg-#{$background} {
+        background-color: $background;
+    }
+}
