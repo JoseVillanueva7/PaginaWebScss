@@ -11,7 +11,7 @@ ul li {
 }
 .tituProd{
     text-align: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuenteUno;
     font-size: 40px;
     padding-top: 30px;
 
@@ -23,7 +23,7 @@ ul li {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fuenteUno;
     font-size: 10px;
     padding: 50px;
     gap: 150px 50px;
