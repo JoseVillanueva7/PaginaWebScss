@@ -60,13 +60,7 @@
           transform: translate(-50%, -50%);
 }
 
-.aseso {
-  text-align: center;
-  font-family: "Dosis", sans-serif;
-  font-size: 40px;
-}
-
-.aseso2 {
+.aseso, .aseso2 {
   text-align: center;
   font-family: "Dosis", sans-serif;
   font-size: 40px;

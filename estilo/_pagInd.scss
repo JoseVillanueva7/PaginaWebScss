@@ -31,6 +31,9 @@
 }
 
 
+
+
+
 .aseso {
     text-align: center;
     font-family: $fuenteUno;
@@ -38,9 +41,8 @@
 }
 
 .aseso2 {
-    text-align: center;
-    font-family: $fuenteUno;
-    font-size: 40px;
+    @extend .aseso
+   
 }
 .imgEnlaces {
     width: 300px;
@@ -71,3 +73,6 @@
         border: 2px solid black;
     }
 }
+
+
+
