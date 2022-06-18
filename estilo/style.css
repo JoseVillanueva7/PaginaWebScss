@@ -4,17 +4,17 @@
 }
 
 .enc {
-  text-align: center;
-  padding: 30px;
+  text-align: right;
+  padding: 20px;
   font-size: 35px;
   font-family: "Dosis", sans-serif;
-  background-color: rgba(102, 34, 212, 0.822);
+  background-color: #292829;
 }
 
 .enc a {
   text-decoration: none;
-  color: black;
-  border-right: 2px solid #000;
+  color: whitesmoke;
+  border-right: 2px solid whitesmoke;
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -23,14 +23,14 @@
   width: 200px;
   height: 60px;
   position: absolute;
-  left: 50px;
+  left: 30px;
+  top: 10px;
 }
 
 .pres {
   background-repeat: no-repeat;
   height: 500px;
   background-image: url(../imgSty/DelValleCity1.jpg);
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -40,7 +40,6 @@
   color: white;
   font-size: 30px;
   font-family: "Dosis", sans-serif;
-  position: relative;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -52,7 +51,6 @@
   color: white;
   font-size: 30px;
   font-family: "Dosis", sans-serif;
-  position: relative;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -107,10 +105,10 @@ ul li {
 }
 
 .imgProd {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   display: block;
-  margin: 50px;
+  margin: 30px;
 }
 
 .tituProd {
@@ -132,14 +130,23 @@ ul li {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Dosis", sans-serif;
-  font-size: 10px;
+  font-size: 15px;
   padding: 50px;
-  gap: 150px 50px;
+  gap: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gainsboro), color-stop(grey), to(#302f2f));
+  background-image: linear-gradient(gainsboro, grey, #302f2f);
 }
 
-.grillaProd div ul li {
+.grillaProd div {
+  border: 2px solid black;
+}
+
+.grillaProd h2, .grillaProd p, .grillaProd ul {
+  text-align: center;
+}
+
+.grillaProd li {
   padding: 1px;
-  margin-left: 30px;
 }
 
 .form {
@@ -159,10 +166,11 @@ ul li {
   padding-left: 80px;
   padding-right: 80px;
   font-family: "Dosis", sans-serif;
+  color: whitesmoke;
 }
 
 .footer {
-  background-color: #949393;
+  background-color: #292829;
   padding: 15px;
 }
 

@@ -1,13 +1,13 @@
 .enc {
-    text-align: center;
-    padding: 30px;
+    text-align: right;
+    padding: 20px;
     font-size: 35px;
     font-family: $fuenteUno;
     background-color: $colorNav;
     a {
         text-decoration: none;
-        color: black;
-        border-right: 2px solid #000;
+        color: whitesmoke;
+        border-right: 2px solid whitesmoke;
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -19,5 +19,6 @@
     width: 200px;
     height: 60px;
     position: absolute;
-    left: 50px;
+    left: 30px;
+    top: 10px;
 }

@@ -4,10 +4,10 @@ ul li {
 }
     
 .imgProd {
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     display: block;
-    margin: 50px;
+    margin: 30px;
 }
 .tituProd{
     text-align: center;
@@ -24,12 +24,26 @@ ul li {
     justify-items: center;
     align-items: center;
     font-family: $fuenteUno;
-    font-size: 10px;
+    font-size: 15px;
     padding: 50px;
-    gap: 150px 50px;
+    gap: 50px ;
+    background-image: linear-gradient(gainsboro, grey, rgb(48, 47, 47));
 }
 
-.grillaProd div ul li {
+.grillaProd { 
+    div {
+        border: 2px solid black;
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        @extend h2;
+    }
+    ul { 
+        @extend h2;
+    }    
+    li {
     padding: 1px;
-    margin-left: 30px;
+}
 }
