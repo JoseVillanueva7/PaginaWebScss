@@ -6,7 +6,7 @@
 .enc {
   text-align: right;
   padding: 20px;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "Dosis", sans-serif;
   background-color: #292829;
 }
@@ -24,7 +24,7 @@
   height: 60px;
   position: absolute;
   left: 30px;
-  top: 10px;
+  top: 5px;
 }
 
 .pres {
@@ -99,6 +99,29 @@
   border: 2px solid black;
 }
 
+.secBoton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secBoton a {
+  text-decoration: none;
+  background: gray;
+  border-radius: 999px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 24px;
+  padding: 8px 18px;
+}
+
 ul li {
   padding: 10px;
   list-style: none;
@@ -159,6 +182,23 @@ ul li {
   text-align: center;
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.noticia {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #449;
+  color: #fff;
+  padding: 15px;
+  font-family: "Dosis", sans-serif;
+}
+
+.izquierda {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 
 .foot {
