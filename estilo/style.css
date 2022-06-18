@@ -20,6 +20,7 @@
 }
 
 .logo {
+  border-radius: 8px;
   width: 200px;
   height: 60px;
   position: absolute;
@@ -88,15 +89,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px 15px;
+  gap: 5px 5px;
   margin: 15px;
   font-family: "Dosis", sans-serif;
 }
 
 .prodGrid div {
   text-align: center;
-  background-color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gainsboro), to(grey));
+  background-image: linear-gradient(gainsboro, grey);
   border: 2px solid black;
+  border-radius: 8px;
 }
 
 .secBoton {
@@ -106,6 +109,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px;
 }
 
 .secBoton a {
@@ -162,6 +166,7 @@ ul li {
 
 .grillaProd div {
   border: 2px solid black;
+  border-radius: 8px;
 }
 
 .grillaProd h2, .grillaProd p, .grillaProd ul {
@@ -172,16 +177,115 @@ ul li {
   padding: 1px;
 }
 
-.form {
-  width: 300px;
-  margin: auto;
-  padding: 20px;
+.titComp {
+  padding: 15px;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 25px;
 }
 
-.formulario {
-  text-align: center;
-  display: block;
+.nustraInst {
   font-family: Georgia, "Times New Roman", Times, serif;
+  width: 90%;
+  margin: 20px auto;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+.nustraInst .izq {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  float: left;
+  margin-right: 15px;
+}
+
+.nustraInst .der {
+  height: 270px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+
+.fondFormu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gainsboro), color-stop(grey), to(#302f2f));
+  background-image: linear-gradient(gainsboro, grey, #302f2f);
+  margin: 0;
+}
+
+.form {
+  width: 400px;
+  height: 500px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+}
+
+.contact {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Dosis", sans-serif;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+input:focus {
+  border-bottom: 2px solid #78788c;
+  font-size: 20px;
+}
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+span {
+  margin: 0 5px 0 15px;
 }
 
 .noti {
@@ -190,12 +294,13 @@ ul li {
 }
 
 .noticia {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
   background-color: gainsboro;
   color: black;
   padding: 15px;
   font-family: "Dosis", sans-serif;
+  border-radius: 8px;
 }
 
 .izquierda {
@@ -229,10 +334,11 @@ ul li {
     border-right: none;
     font-size: medium;
     padding-top: 30px;
+    text-align: center;
   }
   .logo {
     position: absolute;
-    top: 5px;
+    top: 1px;
     margin-left: 20%;
   }
   .pres {

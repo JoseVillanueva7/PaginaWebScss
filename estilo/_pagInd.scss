@@ -60,19 +60,21 @@
     grid-template-rows: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    gap: 15px 15px;
+    gap: 5px 5px;
     margin: 15px;
     font-family: $fuenteUno;
     div {
         text-align: center;
-        background-color: white;
+        background-image: linear-gradient(gainsboro, grey,);
         border: 2px solid black;
+        border-radius: 8px;
     }
 }
 
 .secBoton {
     display: flex;
     justify-content: center;
+    padding: 10px;
 a {
     text-decoration: none;
     background: gray;
