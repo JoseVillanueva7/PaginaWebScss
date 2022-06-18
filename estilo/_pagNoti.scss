@@ -1,8 +1,14 @@
+.noti {
+    background-image: linear-gradient(gainsboro, grey, rgb(48, 47, 47));
+}
+
+
+
 .noticia {
     width: 90%;
     margin: 20px auto;
-    background-color: #449;
-    color: #fff;
+    background-color: gainsboro;
+    color: black;
     padding: 15px;
     font-family: $fuenteUno;
   }

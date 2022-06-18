@@ -184,11 +184,16 @@ ul li {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.noti {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gainsboro), color-stop(grey), to(#302f2f));
+  background-image: linear-gradient(gainsboro, grey, #302f2f);
+}
+
 .noticia {
   width: 90%;
   margin: 20px auto;
-  background-color: #449;
-  color: #fff;
+  background-color: gainsboro;
+  color: black;
   padding: 15px;
   font-family: "Dosis", sans-serif;
 }
