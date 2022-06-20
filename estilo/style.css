@@ -65,17 +65,11 @@
   font-size: 40px;
 }
 
-.imgEnlaces {
-  width: 300px;
-  height: 250px;
-  padding: 70px;
-}
-
 .imgIndx {
   height: 70px;
   width: 70px;
   display: inline;
-  margin: 50px;
+  margin: 10px;
 }
 
 .prodGrid {
@@ -89,17 +83,25 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 5px 5px;
-  margin: 15px;
+  gap: 25px;
+  margin: 55px;
   font-family: "Dosis", sans-serif;
 }
 
 .prodGrid div {
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(gainsboro), to(grey));
-  background-image: linear-gradient(gainsboro, grey);
-  border: 2px solid black;
+  width: 150px;
+  height: 200px;
+  background: #adadad;
   border-radius: 8px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  position: relative;
+}
+
+.prodGrid div h3 {
+  text-align: center;
 }
 
 .secBoton {
@@ -135,7 +137,7 @@ ul li {
   height: 100px;
   width: 100px;
   display: block;
-  margin: 30px;
+  margin: 50px;
 }
 
 .tituProd {
@@ -165,8 +167,15 @@ ul li {
 }
 
 .grillaProd div {
-  border: 2px solid black;
+  width: 250px;
+  height: 340px;
+  background: #e6e6e6;
   border-radius: 8px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  position: relative;
 }
 
 .grillaProd h2, .grillaProd p, .grillaProd ul {

@@ -7,7 +7,7 @@ ul li {
     height: 100px;
     width: 100px;
     display: block;
-    margin: 30px;
+    margin: 50px;
 }
 .tituProd{
     text-align: center;
@@ -32,11 +32,17 @@ ul li {
 
 .grillaProd { 
     div {
-        border: 2px solid black;
-        border-radius: 8px;
+        width: 250px;
+        height: 340px;
+        background:#e6e6e6;
+        border-radius:8px;
+        padding: 30px; 
+        box-sizing:border-box;
+        font-family: $fuenteUno ;
+        position:relative
     }
-    h2 {
-        text-align: center;
+     h2 {
+        text-align: center
     }
     p {
         @extend h2;
@@ -46,5 +52,5 @@ ul li {
     }    
     li {
     padding: 1px;
-}
+} 
 }
