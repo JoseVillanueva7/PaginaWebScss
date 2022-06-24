@@ -86,14 +86,17 @@
   gap: 25px;
   margin: 55px;
   font-family: "Dosis", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .prodGrid div {
-  width: 150px;
-  height: 200px;
-  background: #adadad;
+  width: 200px;
+  height: 250px;
+  background: white;
   border-radius: 4px;
-  padding: 30px;
+  padding: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Dosis", sans-serif;
@@ -174,7 +177,7 @@ ul li {
 .grillaProd div {
   width: 250px;
   height: 340px;
-  background: #adadad;
+  background: white;
   border-radius: 8px;
   padding: 30px;
   -webkit-box-sizing: border-box;
@@ -422,13 +425,24 @@ span {
     padding-right: 5px;
     padding-left: 5px;
   }
+  .pres h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .pres p {
+    font-size: 25px;
+    text-align: center;
+  }
   .grillaProd {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     text-align: center;
   }
   .grillaProd div {
     font-size: small;
+    width: 150px;
+    height: 200px;
   }
 }
 

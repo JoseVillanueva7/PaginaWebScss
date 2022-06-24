@@ -59,12 +59,13 @@
     gap: 25px;
     margin: 55px;
     font-family: $fuenteUno;
+    justify-content: center;
     div {
-        width: 150px;
-        height: 200px;
+        width: 200px;
+        height: 250px;
         background: $colorProd;
         border-radius: 4px;
-        padding: 30px; 
+        padding: 50px; 
         box-sizing:border-box;
         font-family: $fuenteUno ;
         position:relative;
