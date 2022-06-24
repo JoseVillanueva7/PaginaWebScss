@@ -1,8 +1,9 @@
-ul li {
-    padding: 10px;
-    list-style: none;
+ul {
+    li {
+        padding: 10px;
+        list-style: none;
 }
-    
+}  
 .imgProd {
     height: 100px;
     width: 100px;
@@ -30,7 +31,7 @@ ul li {
     background-image: linear-gradient(gainsboro, grey, rgb(48, 47, 47));
 }
 
-.grillaProd { 
+.grillaProd {:hover {filter: opacity(.7);} 
     div {
         width: 250px;
         height: 340px;

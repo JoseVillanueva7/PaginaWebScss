@@ -92,7 +92,7 @@
   width: 150px;
   height: 200px;
   background: #adadad;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -166,6 +166,11 @@ ul li {
   background-image: linear-gradient(gainsboro, grey, #302f2f);
 }
 
+.grillaProd :hover {
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
 .grillaProd div {
   width: 250px;
   height: 340px;
@@ -200,6 +205,11 @@ ul li {
   color: black;
   padding: 30px;
   text-align: center;
+}
+
+.nustraInst .titComp {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
 }
 
 .nustraInst .izq {
@@ -270,7 +280,7 @@ input:focus {
 p:before {
   content: attr(type);
   display: block;
-  margin: 28px 0 0;
+  margin: 28px 1px 1px;
   font-size: 20px;
   color: #5a5a5a;
 }
@@ -343,12 +353,12 @@ span {
   .enc a {
     display: list-item;
     list-style: none;
-    padding: 10px;
+    padding: 2px;
     border: none;
     border-bottom: 1px solid #292829;
     border-right: none;
     font-size: medium;
-    padding-top: 30px;
+    padding-top: 25px;
     text-align: center;
   }
   .logo {
@@ -393,7 +403,7 @@ span {
     text-align: center;
   }
   .grillaProd div {
-    font-size: medium;
+    font-size: small;
   }
 }
 
@@ -418,7 +428,7 @@ span {
     text-align: center;
   }
   .grillaProd div {
-    font-size: medium;
+    font-size: small;
   }
 }
 
