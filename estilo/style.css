@@ -425,6 +425,10 @@ span {
     padding-right: 5px;
     padding-left: 5px;
   }
+  .prodGrid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
   .pres h1 {
     font-size: 30px;
     text-align: center;
@@ -435,15 +439,33 @@ span {
     text-align: center;
   }
   .grillaProd {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     text-align: center;
   }
   .grillaProd div {
     font-size: small;
-    width: 150px;
-    height: 200px;
   }
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 50px 50px;
+      grid-template-rows: 50px 50px;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foot {
+  font-size: small;
 }
 
 .bg-gainsboro {
